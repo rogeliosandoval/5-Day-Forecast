@@ -1,50 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+
+html,body {
+    overflow-x: hidden;
+}
+
 .page-holder {
     min-height: 100vh;
 }
 
-.bg-cover {
-    background-size: cover !important;
-}
-
-.heading {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 15px;
-}
 .fiveday {
+    color: white;
     font-weight: bold;
-    text-shadow: 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 p {
     font-size: 12px;
     margin: 0;
 }
+
 .btn-1 {
     font-size: 15px;
-    height: 30px;
-    background: #3d3d3d;
+    height: 35px;
+    background: teal;
     color: white;
     border: 1px solid #7f7f7f;
     padding-top: 2px;
 
 }
 .btn-1:hover {
-    background-color: #575757;
+    background-color: rgb(0, 93, 93);
     color: white;
     border: 1px solid #7f7f7f;
 }
 .inputSearch {
     font-size: 15px;
     width: 200px;
-    height: 30px;
+    height: 35px;
     border-radius: 3px;
     border: 1px solid #9d9d9d;
     padding: 4px;
+    background:rgb(240, 240, 240);
 }
 
 .inputSearch:focus {
@@ -60,7 +57,7 @@ p {
 
 }
 .navbar {
-    background: lightblue;
+    background: powderblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,11 +98,12 @@ h2 {
     box-shadow:         4px 2px 4px 1px black;
 }
 
-
-
 #map {
     border-radius: 5px;
     justify-self: auto;
+    -moz-box-shadow:    4px 2px 4px 1px #ccc;
+    -webkit-box-shadow: 4px 2px 4px 1px #ccc;
+    box-shadow:         4px 2px 4px 1px black;
 }
 .container {
     padding-top: 8px;
@@ -114,4 +112,80 @@ h2 {
 
 #container2 {
     font-weight: bold;
+}
+
+button {
+    padding: 4px;
+    background: white;
+}
+
+button:hover {
+    background: rgb(201, 201, 201);
+}
+
+.style-buttons {
+    background: white;
+}
+
+.button-25 {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-25:hover {
+  background: rgb(0, 126, 126);
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+    transform: translateY(5px);
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
+
+.switchText {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+
+    .switchText {
+        font-size: 22px;
+    }
+
+    .button-section {
+        display: flex;
+        justify-content: center;
+    }
+
 }
