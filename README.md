@@ -5,6 +5,9 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60px;"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60px;"/>
 </p>
+<a href="https://open-weather-api-project.vercel.app/"><b>Live Demo</b></a>
+<br>
+<br>
 This application allows you to check the weather anywhere in the world with mapbox! Use the search bar to look up your desired location's weather forecast. Below the map are buttons that allow you to change the style of the map. An example of the app is shown below!
 <br>
 <br>
