@@ -1,4 +1,4 @@
-# OpenWeather-API-Project
+# 5 Day Forecast
 <a href="https://open-weather-api-project.vercel.app/"><b>Live Demo</b></a>
 <br>
 <h3>Languages Used:</h3>
