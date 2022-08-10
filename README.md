@@ -1,6 +1,4 @@
-# 5 Day Forecast
-<a href="https://open-weather-api-project.vercel.app/"><b>Live Demo</b></a>
-<br>
+# OpenWeather-API-Project
 <h3>Languages Used:</h3>
 <p float="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60px;"/>
